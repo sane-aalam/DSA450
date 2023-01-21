@@ -32,7 +32,7 @@ int kthLargest(int arr[], int l, int r, int k) {
             pq.push(arr[i]);
 
         // now calculate for rest element
-		//Now, if the element at top of min-heap is smaller, we remove it and add new element
+	//Now, if the element at top of min-heap is smaller, we remove it and add new element
 
         for(int i=k+1;i<=r;i++) {
 
@@ -43,7 +43,7 @@ int kthLargest(int arr[], int l, int r, int k) {
             } 
         }
         
-		//Return the top (smallest) of min-heap
+	//Return the top of min-heap
         return pq.top();
 }
 
