@@ -20,8 +20,7 @@ Node* CreateNode(int data)
 
 
 int main(){
-
- 
+    // creation of binary tree
     Node * root = CreateNode(1);
     root->left = CreateNode(2);
     root->right = CreateNode(3);
