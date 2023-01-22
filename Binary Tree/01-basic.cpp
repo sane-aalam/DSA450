@@ -21,6 +21,17 @@ Node* CreateNode(int data)
 
 int main(){
     // creation of binary tree
+    /* Tree like this ->
+    
+               1
+             /   \
+            /     \
+          2       3
+          / \     /  \
+         /   \   /    \
+        4     5 -6     10
+        
+    */
     Node * root = CreateNode(1);
     root->left = CreateNode(2);
     root->right = CreateNode(3);
