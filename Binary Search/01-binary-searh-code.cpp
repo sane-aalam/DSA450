@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-// fuction for getting pivot value
+// Binary search code template : to search an element in the array 
 int BinarySearchConcept(int arr[], int n,int k){
     int start = 0;
     int end = n -1;
@@ -17,6 +17,7 @@ int BinarySearchConcept(int arr[], int n,int k){
             end = mid - 1;
         }
     }
+    // if array does not have an element then return -1
     return -1;
 }
 
