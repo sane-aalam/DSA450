@@ -2,16 +2,17 @@
 #include <iostream>
 using namespace std;
 
-// Topdown Appraoch 
+// ---- Topdown Appraoch ---- 
 //  we totally remove recusive calling process
 
-// 1. create matrix and installation matrix using recursive base condtion
+// 1. create matrix and initialization matrix using recursive base condtion
 // 2. recursive code convert into the iterative code
 
 int knapscak01(int values[], int wieght[] , int W, int n){
-
-      int dp[n+1][W+1];
-
+      
+      // create matrix 
+      int dp[n+1][W+1]; 
+      // initialization matrix using base condition 
       for(int i =0; i<n+1; i++){
           for(int j =0; j<W+1; j++){
               if(i==0 || j == 0){
@@ -30,14 +31,11 @@ int knapscak01(int values[], int wieght[] , int W, int n){
                }
            }
        }
-
        return dp[n][W];
 }
 
-
-
 int main(){
-
+      // start your code 
     int values[] = {1,2,3};
     int weight[] = {4,5,1};
     int n = 3; // here n is size of value array
