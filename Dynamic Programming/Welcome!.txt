@@ -1,2 +1,3 @@
-Welcome to ddynamic programming!
+Welcome to dynamic programming!
+here,i'm solving questions using patterns wise.
 Thankyou):
