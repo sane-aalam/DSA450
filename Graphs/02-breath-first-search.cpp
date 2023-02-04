@@ -49,7 +49,6 @@ int main() {
     while (tc--) {
         int V, E;
         cin >> V >> E;
-        // create adj list for storing the nieghbours nodes
         vector<int> adj[V];
         for (int i = 0; i < E; i++) {
             int u, v;
