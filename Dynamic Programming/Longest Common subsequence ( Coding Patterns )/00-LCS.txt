@@ -1,0 +1,17 @@
+
+- Weclome to This new Dynamic Programming Pattern
+
+ {12 questions  - based on the 1 pattern - LCS}
+
+1. Longest common subsequence (Done)
+2. Longest common substring  (Done) 
+3. print Longest common subsequence
+4. shorest common subsequence
+5. minimum number of insert convert A string to B string
+6. minimum number of deletion convert A string to B string
+7. Longest palindrome subsequence
+8. minimum number of insert convert A string to make palindrome
+9. minimum number of deletion convert A string to make palindrome
+10. print shorest common subsequence
+11. Longest repeating subsequence
+12. sequence pattern matching 
